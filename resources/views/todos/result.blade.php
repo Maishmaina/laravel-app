@@ -28,6 +28,8 @@ Todo page
 </div>
 </div> 
 </div>
-</div> 
+</div>
+@else
+ <div class="alert alert-danger">No Result Found. Thank you try Another query...</div>
 @endif
 @endsection
